@@ -9,5 +9,6 @@ public class LeapYearCalculatorTest {
         LeapYearCalculator leapYear = new LeapYearCalculator();
         boolean result = leapYear.isLeapYear(2004);
         Assert.assertTrue(result);
+        leapYear.isLeapYear(2001);
     }
 }
